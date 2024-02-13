@@ -18,7 +18,7 @@ async def hello(ctx):
 async def heh(ctx, count_heh = 5):
     await ctx.send("he" * count_heh)
 
-@bot.command(description='На случай, если ты захочешь свести счеты каким-нибудь другим способом')
+@bot.command(description='На случай, если ты захочешь свести счеты каким-нибудь другим способом11222')
 async def choose(ctx, *choices: str):
     """Chooses between multiple choices."""
     await ctx.send(random.choice(choices))
