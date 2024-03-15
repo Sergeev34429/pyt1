@@ -1,0 +1,87 @@
+@keyframes color-change {
+    0% {
+      color: rgb(0, 0, 255);
+    }
+  
+    50% {
+      color: rgb(206, 7, 7);
+    }
+  
+    100% {
+      color: rgb(0, 0, 255);
+    }
+}
+
+@keyframes bg-color-change {
+    0% {
+    background-color: #5db7c75e;
+    }
+
+  
+    50% {
+    background-color: #4683eb;
+    }
+
+    100% {
+    background-color: #66c2d25e;
+    }
+}
+
+h1:hover { animation: color-change 3s infinite; }
+
+h2:hover { animation: color-change 3s infinite; }
+
+body {
+    font-family: monospace,  sans-serif; /* Семейство шрифтов */
+    font-size: 10px; /* Размер основного шрифта в <p></p>  */
+    background-color: #4683eb; /* Цвет фона веб-страницы */
+    color: #f0f0f0; /* Цвет основного текста */ 
+}
+
+.right {
+    float: right;
+    }
+
+h1 {
+    color: #D6FF6B; /* Цвет заголовка */
+    font-size: 36px; /* Размер шрифта в пунктах */
+    font-family: monospace, serif; /* Семейство шрифтов */
+    /*animation: color-change 3s infinite; */
+}
+
+h2 {
+    color: #f59ae3; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: monospace, serif; /* Семейство шрифтов */
+}
+
+h3 {
+    color: #f59ae3; /* Цвет заголовка */
+    font-size: 21px; /* Размер шрифта в пунктах */
+    font-family: monospace, serif; /* Семейство шрифтов */
+}
+
+p {
+    color: #f0f0f0; /* Цвет заголовка */
+    background-color: #57abb95e; /* Цвет фона веб-страницы */
+    font-size: 20px; /* Размер шрифта в пунктах */
+    font-family: monospace, serif; /* Семейство шрифтов */
+    border: solid;
+    border-radius: 30px;
+    animation: bg-color-change 3s infinite;
+}
+
+li {
+    color: #232323; /* Цвет заголовка */
+    font-size: 20px; /* Размер шрифта в пунктах */
+    font-family: monospace, serif; /* Семейство шрифтов */
+}
+
+ul {
+    color: #cbcbcb; /* Цвет заголовка */
+    background-color: #f0f0f0; /* Цвет фона веб-страницы */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: monospace, serif; /* Семейство шрифтов */
+    border: solid;
+    border-radius: 30px;
+}
