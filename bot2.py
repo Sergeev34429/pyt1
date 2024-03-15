@@ -48,4 +48,4 @@ async def password(ctx, lenn: int):
         password += pass1[random.randint(0,len(pass1))] 
     await ctx.send(password)
 
-bot.run("MTIwMjYyNzk4MzA0NzkyMTY4NQ.GOoCwV.8LwVLzd5HKBohLZIaJDRF47hSUcaREzHAd1GCI") 
+bot.run("!MTIwMjYyNzk4MzA0NzkyMTY4NQ.GOoCwV.8LwVLzd5HKBohLZIaJDRF47hSUcaREzHAd1GCI") 
