@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="../../static/css/style.css"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>результаты формы</title>
+</head>
+<body>
+    {% block content %}
+    <header class="header">
+        <div class="header__textL">
+            <h1>Спасибо за заполнение формы!</h1>
+        </div>
+    </header>
+    <p class="main">Bаше имя: {{ name }}</p>
+    <p class="main">Bашa электронная почта: {{ email }}</p>
+    <p class="main">Bаш адрес: {{ address }}</p>
+    <p class="main">Bашa дата: {{ date }}</p>
+    {% endblock %}
+</body>
+</html>
