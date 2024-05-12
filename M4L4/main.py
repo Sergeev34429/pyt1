@@ -26,7 +26,7 @@ def submit_form():
     email = request.form['email']
     text = request.form['text']
     with open('form.txt', 'a',) as f:
-            f.write('\n' + email + '\n' + text + '\n')
+            f.write('\n' + email + ' ' + text + '\n')
     return render_template('index.html', feedback=email)
 
 
